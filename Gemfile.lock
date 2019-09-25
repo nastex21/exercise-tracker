@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/mongodb/mongoid.git
-  revision: b598df2dd78d7ed38cd0d7cca0e0279607e992a9
-  specs:
-    mongoid (7.1.0)
-      activemodel (>= 5.1, < 6.1)
-      mongo (>= 2.5.1, < 3.0.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -208,7 +200,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   jbuilder (~> 2.7)
-  mongoid!
+  mongo
   puma (~> 3.11)
   rails (~> 6.0.0)
   sass-rails (~> 5)

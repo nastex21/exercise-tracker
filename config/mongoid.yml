@@ -30,7 +30,7 @@ development:
         #   mode: :secondary_preferred
         #   tag_sets:
         #     - use: web
-
+        retry_writes: false
         # The name of the user for authentication.
         # user: 'user'
 

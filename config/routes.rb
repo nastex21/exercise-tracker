@@ -1,3 +1,11 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get 'home/index'
+
+  resources :logins, path: '/api/login'
+  
+  #get 'api' => 'home#index'
+  #get 'api/dashboard' => 'api#dashboard'
+  #get 'api/login' => 'api#login'
+
+  root 'home#index'
 end
