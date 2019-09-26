@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   get 'home/index'
 
   #resources :logins, path: '/api/login'
@@ -6,6 +7,6 @@ Rails.application.routes.draw do
   get 'api' => 'home#index'
   get 'api/dashboard' => 'api#dashboard'
   get 'api/login' => 'api#login'
-  get '/api/register' => 'api#register'
+  get 'api/register' => 'api#register'
   root 'home#index'
 end
