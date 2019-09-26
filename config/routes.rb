@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :users
+  resources :users, path: '/api/register'
   get 'home/index'
 
   #resources :logins, path: '/api/login'
