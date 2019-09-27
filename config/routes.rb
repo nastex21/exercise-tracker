@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   get 'api' => 'home#index'
   get 'api/dashboard' => 'api#dashboard'
   get 'api/login' => 'api#login'
-  get 'api/register' => 'api#register'
+  get 'api/register/new' => 'api/register#new'
   root 'home#index'
 end
